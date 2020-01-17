@@ -20,6 +20,16 @@ let LibroService = class LibroService {
     constructor(libroRepository) {
         this.libroRepository = libroRepository;
     }
+    save(libro) {
+        return this.libroRepository.save(libro);
+    }
+    findById(id) {
+        return this.libroRepository.findOne(id);
+    }
+    async delete(id) {
+        const promesaObjeto = await this.libroRepository.findOne(id);
+        return this.libroRepository.remove(promesaObjeto);
+    }
 };
 LibroService = __decorate([
     common_1.Injectable(),

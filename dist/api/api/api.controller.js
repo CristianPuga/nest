@@ -18,14 +18,13 @@ let ApiController = class ApiController {
     constructor() {
         this.libro1 = { id: 1, titulo: 'Los mundos magicos', autor: 'Charlestone A', fecha: new Date() };
         this.libro2 = { id: 2, titulo: 'Chamorron el piedras', autor: 'Welcome A', fecha: new Date() };
-        this.libro3 = { id: 3, titulo: 'Pilotes que son de bones', autor: 'Niño Mallorquino', fecha: new Date() };
+        this.libro3 = { titulo: 'Pilotes que son de bones', autor: 'Niño Mallorquino', fecha: new Date() };
         this.librosArray = [this.libro1, this.libro2];
     }
     getLibros() {
         return this.librosArray;
     }
     subirLibro() {
-        this.librosArray.push(this.libro3);
         return this.libro3;
     }
     getLibroId(params) {

@@ -1110,8 +1110,8 @@
         "signature": "ef022c91ea9e75ab4082f2e881f9c4db7b346be2da706e876b253bebce5e6140"
       },
       "../src/libro.ts": {
-        "version": "8d9afe40f516d21a5c013209d8667aba45c83aa6ea64d2b78f0014f48fcafb51",
-        "signature": "5cdbc08823a4c36b136f4fb2c2d7a3b884d4c00b36e2ea45fa30a99e9e73e277"
+        "version": "c0419dec6a22fe35177092d3abb52db2d719014b83b35a07a0cfe2e4ffc1648d",
+        "signature": "8b5c09a4b83e4977b5f1257f1d7c763ad5d17d0d4f427029dd5c7a1c6b3951bb"
       },
       "../node_modules/@types/range-parser/index.d.ts": {
         "version": "4e88b833be14c7f384e0dcd57bb30acd799e8e34d212635d693e41a75a71164b",
@@ -1142,7 +1142,7 @@
         "signature": "6e1c6fe784daeba017901db7766e6b872f535defe33b0e0196d2a12c26f50517"
       },
       "../src/api/api/api.controller.ts": {
-        "version": "110580b6ef3b7ab8a9ef978c9ab6b49fc044389a6b68e0374cfc094dca5960a7",
+        "version": "db261d97db0f02dd6c1229ae183a00338c0031764a9f20950fcf5fa33718c1c9",
         "signature": "93c5deea66c2c5a3f0f1332a0a54390320dbc4426c032cc3b6c007538de6def3"
       },
       "../src/api/api.module.ts": {
@@ -2173,17 +2173,17 @@
         "version": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f",
         "signature": "8f1241f5d9f0d3d72117768b3c974e462840fbd85026fb66685078945404cf2f"
       },
-      "../src/libro/libro/libro.controller.ts": {
-        "version": "6c9487da9087924a5efb60509e81c56ba0b24648cf51e978e5fdb7e3da96187b",
-        "signature": "4c406153f667234819f44ba9978bc3505abdf260dcbd11a8e1116a6fff29428b"
-      },
       "../src/libro/libro.entity.ts": {
-        "version": "8cd36b5489e489e0370595bbd5db0042533450e243e6a53bb69837eba57d6eb2",
+        "version": "96a527c7bf7495d21600f4b905cafd1ecb365b2c5be6f20e1f0847b3479394e4",
         "signature": "5cdbc08823a4c36b136f4fb2c2d7a3b884d4c00b36e2ea45fa30a99e9e73e277"
       },
       "../src/libro/libro/libro.service.ts": {
-        "version": "a6d4b7b152bf454e7599eb745c38b8ed31072207a4386b3a732731f79739cab8",
-        "signature": "77b82bc230c3a88ecef5ba0f37dbeba0b596ee8440343c735fb28756bae401a3"
+        "version": "2225ad82d9b1b09b91ccd882e29176f1a99f122cd708f727788a225fb6066404",
+        "signature": "923bffb9ad34a5e5f8c1da52d1dd9e6f5a190d83ef33da8b7529043173edfd47"
+      },
+      "../src/libro/libro/libro.controller.ts": {
+        "version": "0f90c88ffb756c230550a6761305c1b1cd3ae50dda4d7027d50fe59c962becf9",
+        "signature": "d294ac4f1543e6600c4310a9f6e07edf560e94fd714f98299c31899052e63032"
       },
       "../src/libro/libro.module.ts": {
         "version": "ca72ec03fc164afbc74e5b82a3148b54ba43cf54b169274c2c8b66cc85d605fa",
@@ -6996,13 +6996,6 @@
         "../node_modules/@types/node/util.d.ts",
         "../node_modules/@types/node/ts3.2/util.d.ts"
       ],
-      "../src/libro/libro/libro.controller.ts": [
-        "../node_modules/@nestjs/common/index.d.ts",
-        "../node_modules/@types/node/fs.d.ts",
-        "../node_modules/@types/node/ts3.2/fs.d.ts",
-        "../node_modules/@types/node/util.d.ts",
-        "../node_modules/@types/node/ts3.2/util.d.ts"
-      ],
       "../src/libro/libro.entity.ts": [
         "../node_modules/typeorm/index.d.ts",
         "../node_modules/@types/node/fs.d.ts",
@@ -7015,6 +7008,15 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/libro/libro.entity.ts",
         "../node_modules/@nestjs/typeorm/index.d.ts",
+        "../node_modules/@types/node/fs.d.ts",
+        "../node_modules/@types/node/ts3.2/fs.d.ts",
+        "../node_modules/@types/node/util.d.ts",
+        "../node_modules/@types/node/ts3.2/util.d.ts"
+      ],
+      "../src/libro/libro/libro.controller.ts": [
+        "../node_modules/@nestjs/common/index.d.ts",
+        "../src/libro/libro/libro.service.ts",
+        "../src/libro/libro.entity.ts",
         "../node_modules/@types/node/fs.d.ts",
         "../node_modules/@types/node/ts3.2/fs.d.ts",
         "../node_modules/@types/node/util.d.ts",
@@ -12069,6 +12071,10 @@
         "../node_modules/typeorm/index.d.ts",
         "../src/libro/libro.entity.ts"
       ],
+      "../src/libro/libro/libro.controller.ts": [
+        "../src/libro/libro/libro.service.ts",
+        "../src/libro/libro.entity.ts"
+      ],
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts": [
         "../node_modules/@nestjs/common/index.d.ts",
         "../node_modules/@nestjs/common/interfaces/index.d.ts",
@@ -13130,9 +13136,9 @@
       "../node_modules/@nestjs/typeorm/dist/typeorm.module.d.ts",
       "../node_modules/@nestjs/typeorm/dist/index.d.ts",
       "../node_modules/@nestjs/typeorm/index.d.ts",
-      "../src/libro/libro/libro.controller.ts",
       "../src/libro/libro.entity.ts",
       "../src/libro/libro/libro.service.ts",
+      "../src/libro/libro.module.ts",
       "../src/app.module.ts",
       "../node_modules/@nestjs/core/adapters/http-adapter.d.ts",
       "../node_modules/@nestjs/core/adapters/index.d.ts",
@@ -13199,7 +13205,7 @@
       "../node_modules/@types/webpack/index.d.ts",
       "../node_modules/@types/yargs-parser/index.d.ts",
       "../node_modules/@types/yargs/index.d.ts",
-      "../src/libro/libro.module.ts"
+      "../src/libro/libro/libro.controller.ts"
     ]
   },
   "version": "3.7.4"

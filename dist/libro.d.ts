@@ -1,5 +1,5 @@
 export declare class Libro {
-    id: number;
+    id?: number;
     titulo: string;
     autor: string;
     fecha: Date;

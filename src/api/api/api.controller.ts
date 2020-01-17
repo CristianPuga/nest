@@ -16,7 +16,7 @@ export class ApiController {
 
     libro1:Libro = {id: 1, titulo: 'Los mundos magicos', autor: 'Charlestone A', fecha: new Date()};
     libro2:Libro =  {id: 2, titulo: 'Chamorron el piedras', autor: 'Welcome A', fecha: new Date()};
-    libro3:Libro = {id: 3, titulo: 'Pilotes que son de bones', autor:'Niño Mallorquino', fecha: new Date()};
+    libro3:Libro = {titulo: 'Pilotes que son de bones', autor:'Niño Mallorquino', fecha: new Date()};
 
     librosArray:Libro[] = [this.libro1, this.libro2]
 
@@ -29,7 +29,7 @@ export class ApiController {
 
     @Post()
     subirLibro(): Libro{
-        this.librosArray.push(this.libro3);
+        //this.librosArray.push(this.libro3);
         return this.libro3
     }
 
